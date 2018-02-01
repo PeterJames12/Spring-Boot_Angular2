@@ -1,0 +1,9 @@
+
+
+<div *ngIf="users" align="center">
+  <div style="margin-top: 200px; width: 550px">
+    <div *ngFor="let user of users" class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">{{user.id + ' : '}} {{user.email + ' : '}} {{user.name}}</a>
+    </div>
+  </div>
+</div>
